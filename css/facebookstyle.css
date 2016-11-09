@@ -1,0 +1,90 @@
+	<style>
+	
+	@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+	body { 
+		font-family: 'Open Sans', sans-serif; 
+		}
+
+	p {
+		font-family: 'Open Sans', sans-serif;
+		}
+
+
+	a {
+		text-decoration: none;
+		color:white;
+		}
+
+	a:hover {
+		color: black;
+		text-decoration: underline;
+		}
+
+
+	#Page {
+		margin: 10px;
+		font-family: 'Open Sans', sans-serif;
+		}
+
+	#FacebookHeading { 
+		text-align: center;
+		background-color: #3b5998; /* This is Facebook Blue */
+		font-color: #ffffff;
+		margin: 0px;
+		padding: 20px;
+		font-family: 'Open Sans', sans-serif;
+		}
+
+	.logo {
+		display:inline;
+		margin-left: auto;
+		margin-right: auto;
+		}
+
+	#PageHeading {
+		text-align: center;
+		font-size: 4em;
+		font-weight: 2em;
+		padding: 30px;
+		color: white;
+		background-color: #3b5998;
+		font-family: 'Open Sans', sans-serif;
+		}
+
+	.BodyHeading {
+		padding: 10px;
+		margin-bottom: 10px;
+		margin-top: 0px;
+		color: white;
+		font-weight: bold;
+		background-color: #3b5998;
+		font-family: 'Open Sans', sans-serif;
+		}
+
+
+	#ProfilePicture {
+		display: block;
+		padding: 20px;
+		width: 50%;
+		margin: auto;
+		}
+
+	#IntroParagraph {
+		font-size: 2em;
+		padding: 35px;
+		margin: 20px;
+		background-color: #d7d6d7;
+		}
+
+	#ReadBlog {
+		margin: auto;
+		padding: 20px;
+		font-size: 0.8em;
+		text-align: center;
+		background-color: #3b5998;
+		font-family: 'Open Sans', sans-serif;
+		}
+
+
+	</style>
