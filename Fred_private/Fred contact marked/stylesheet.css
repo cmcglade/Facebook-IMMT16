@@ -1,0 +1,25 @@
+
+body {
+	background:black;
+	color: #80c0c0;
+	}
+ 
+a:link {
+	color: #F5F5DC;
+ 	}
+                       
+a:visited {
+	color: #FFE4C4;
+	}
+
+a:active {
+	color: #F5F5DC;
+	}
+
+h3 {font-size: xx-large; /* não conheço esse formato pra font-size, não. só lembro de colocar
+							em px ou em */
+	color: #325050;
+	font-family: 'Libre Baskerville', sans-serif;
+	}
+
+	

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Crete+Round|Libre+Franklin');
+
+	/* Common Styling for both pages*/
+
+	#Heading {
+		text-align: center;
+		font-family: 'Crete Round', serif;
+		font-weight: bold;
+		font-size: 35px;
+		color: #520284;
+	}
+
+	footer {
+		font-family: 'Open Sans', sans-serif;
+	}
+
+	img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+	}
+
+	span {
+		color: #482a68;
+		font-size: 25px;
+		font-family: 'Crete Round', serif;
+	}
+
+	h2 {
+		font-family: 'Crete Round', serif;
+		font-weight: bold;
+		color: #520284;
+		text-align: center;
+	}
+
+	/* This is CSS for the main HTML page */
+
+	body {
+		background-color: #f1dbff;
+		font-family: 'Open Sans', sans-serif;
+		color: black;
+	}
+
+	h3 {
+		font-family: 'Libre Franklin', sans-serif;
+		color: black;
+	}
+
+	a {
+		color: red;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: #85098e;
+		text-decoration: underline;
+		font-weight: bold;
+	}
+
+	#Intro_Paragraph {
+		margin: 5px;
+	}
+
+	label {
+		font-weight: bold;
+	}
+
+	.form1 {
+		background-color: #ededed;
+		margin: 10px;
+		padding: 10px;
+		border: 1px solid black;
+		font-family: 'Libre Franklin', sans-serif;
+		width: 60%;
+	}
+
+	#Form_Text {
+		color: black;
+		font-size: 20px;
+		font-family: 'Crete Round', serif;
+	}
+
+
+	/*This is CSS for the PHP page*/
+
+	#PHPoutput {
+		background-color: #ededed;
+		width: 60%;
+		padding: 10px;
+		margin: auto;
+		border: 1px solid black;
+		font-family: 'Libre Franklin', sans-serif;
+	}
+
+	#Confirmation_Message {
+		text-align: center;
+		font-family: 'Crete Round', serif;
+		color: red;
+		font-size: 25px;
+	}
+
+
+
+

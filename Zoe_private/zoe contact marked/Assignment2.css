@@ -1,0 +1,69 @@
+.BodyHeading {
+			padding: 10px;
+			color: white;
+			font-weight: bold;
+			background-color: black
+			}
+.FormLabels		{
+			font-size: 1.5em;
+			font-weight: 2em;
+			}
+.FormFields {
+			font-size: 0.9em;
+			}
+.PageSpacing {
+			margin: 20px;
+			padding: 30px;
+			}
+	#Page {
+			margin: 10px;
+			font-family: 'Open Sans', sans-serif;
+			}
+	#ProfilePicture {
+			display: block;
+			padding: 20px;
+			width: 50%;
+			margin: auto;
+			}
+	#PageHeading {
+			text-align: center;
+			font-size: 4em;
+			font-weight: 2em;
+			padding: 30px;
+			color: white;
+			background-color: black;
+			}
+	#IntroParagraph {
+			font-size: 2em;
+			padding: 35px;
+			margin: 20px;
+			background-color: #d7d6d7;
+				}
+	#CheckPortfolio {
+			margin: auto;
+			padding: 20px;
+			font-size: 0.8em;
+			text-align: center;
+			background-color: #d7d6d7;
+				}
+	#Link {
+			text-decoration: none;
+			font-weight: 3em;
+			color: white;
+			background-color: black
+			}
+	#LinkStyling {
+			display: inline block;
+			padding: 20px;
+			}
+	#Form {
+			padding: 20px;
+			margin: 20px;
+			background-color: #d7d6d7;
+			}
+	#SubmitButton {
+			padding: 10px;
+			margin: 30px;
+			font-size: 1.25em;
+			font-weight: bold;
+			}

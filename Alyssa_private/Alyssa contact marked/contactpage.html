@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Page</title>
+	<!-- Alyssa King's Contact Page for IMMT715 - Dev Tools-->
+
+	<!--Linked CSS-->
+	<link rel="stylesheet" href="css/contactstyle.css">
+	<!--Imported Google Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
+</head>
+<body>
+	<div id="Heading">
+		<h1>Secret Mission: Test Two</h1>
+		<hr>
+	</div>
+	<div id="Subheading">
+	<h2>Congratulations!</h2>
+	</div>
+	<img src="img/secret.jpg" width="200" alt="Secret Mission Image">
+	<p id="Intro_Paragraph">
+		<br>You have been chosen to participate in a <span id="highlight">secret mission</span> and are one of the select few to have passed the first test. 
+		<br>
+		<br>This is the second test. 
+		<br>
+		<br>Please think of your answers carefully as this will determine whether you will move on to the final test. 
+		<br>Refer to <a href="https://www.pottermore.com/" target="_blank">Pottermore</a> for a great Sorting Hat quiz if you don't know your Hogwarts House.
+		<br>
+		<br>To proceed, please input the following information:
+		</p>
+		<ul>
+			<li>First Name
+			<li>Last Name
+			<li>Phone Number
+			<li>Password
+			<li>Answer all the questions
+		</ul>
+	<form class="form1" action="php/contactpage.php" method="post">
+		<span id="Form_Text">
+			Please complete all fields:
+		</span>
+		<br>
+		<label>First Name:</label>
+		<br>
+		<input type="text" name="first_name" placeholder="First Name" required>
+		<br>
+		<label>Last Name: </label>
+		<br>
+		<input type="text" name="last_name" placeholder="Last Name" required>
+		<br>
+		<label>Phone Number: </label>
+		<br>
+		<input type="tel" name="tel_number" placeholder="4161111111" required>
+		<br>
+		<label>Password: </label>
+		<br>
+		<input type="password" name="password" placeholder="******" required>
+		<br>
+		<label id="field">Which do you prefer?</label>
+			<br>
+			<input type="radio" name="animal" value="Cats" required> Cats
+			<br>
+			<input type="radio" name="animal" value="Dogs"> Dogs
+			<br>
+			<input type="radio" name="animal" value="I hate them both"> I hate them both
+			<br>
+		<label>Pick a Hogwarts House:</label>
+			<br>
+			<input type="radio" name="Hogwarts_House" value="Gryffindor" required> Gryffindor
+			<br>
+			<input type="radio" name="Hogwarts_House" value="Ravenclaw"> Ravenclaw
+			<br>
+			<input type="radio" name="Hogwarts_House" value="Hufflepuff"> Hufflepuff
+			<br>
+			<input type="radio" name="Hogwarts_House" value="Slytherin"> Slytherin
+			<br>
+		<label>Say something interesting:</label>
+		<br>
+		<textarea name="longer_text" placeholder="Something interesting" required></textarea>
+		<br>
+		<input type="submit" name="submit" value="Submit">
+		<input type="reset" name="reset" value="Reset">
+	</form>
+	<footer>
+		<hr>
+		<h3>For IMT715 - Dev Tools - Assignment 2 - Nov 11, 2016</h3>
+		<p>
+			Completed by Alyssa King. For more of my work, please go to <a href="http://itsalyssak.blogspot.com" target="_blank">my blog</a>.
+		</p>
+</footer>
+</body>
+</html>
