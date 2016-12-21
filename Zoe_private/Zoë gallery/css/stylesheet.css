@@ -4,7 +4,7 @@ body {
 
 .bgimage {
 	background-image: url('../img/Girls1.jpg');
-	background-position: center center;
+	background-position: center center; /*may want to not center vertically it is cutting off your heads!*/
 	background-size: cover;
 	height: 200px;
 }
