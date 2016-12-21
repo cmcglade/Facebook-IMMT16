@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.jumbotron {
+	background-color: #72a8ff;
+	color: #ffffff;
+	font-family: Roboto Slab, serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+p {
+	font-family: Lato, sans-serif;
+}
+
+#IntroParagraph {
+	background-color: #bbb;
+}
+
+#IntroParagraph h2 {
+	font-family: Roboto Slab, serif;
+	font-weight: bold;
+}
+
+.panel-footer {
+	background-color: #72a8ff;
+	color: #ffffff;
+	font-family: Lato, sans-serif;
+}
+
+.thumbnail {
+	text-align: center;
+	font-family: Lato, sans-serif;
+}
+
+.thumbnail a {
+	color: #777;
+}
+
+.thumbnail a:hover {
+	text-decoration: none;
+	color: #72a8ff;
+}
+
+
+
+

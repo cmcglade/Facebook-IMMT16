@@ -1,0 +1,24 @@
+body {
+	font-family: "Open Sans";
+}
+
+.bgimage {
+	background-image: url('../img/Girls1.jpg');
+	background-position: center center;
+	background-size: cover;
+	height: 200px;
+}
+
+.jumbotron {
+	background-color: #337ab7;
+	color: white;
+}
+
+.container-fluid {
+	padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
